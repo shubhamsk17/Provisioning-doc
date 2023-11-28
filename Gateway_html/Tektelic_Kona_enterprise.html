@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tektelic.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/Macrosoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Macrosoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#160505d5;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #10bd0a;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #ffffff;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #161313e1;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<img src="{{ow_logo}}" alt="drawing" width="250"/>
+<h1 id="provisioning-of-kerlink-station-v1-gateway">Provisioning of Tektelic Enterprise Gateway</h1>
+<h2 id="kerlink-station-v1---gateway-provisioning-with-orbiwise-distribution">Tektelic Enterprise  - Gateway Provisioning With Orbiwise Distribution</h2>
+<h3 id="1-login-into-the-gateway-using-ssh">1. Login into the gateway using ssh</h3>
+<pre class="hljs"><code><div>ssh root@192.168.101.69 <span class="hljs-comment"># this ip should be replaced with the ip received by the router.</span>
+passwd:
+</div></code></pre>
+<h3 id="2-allow-port-50011-in-the-firewall-of-the-gateway">2. Allow port 50011 in the firewall of the gateway</h3>
+<pre class="hljs"><code><div>iptables -t filter -A OUTPUT -p tcp --dport 50011 -j ACCEPT
+
+<span class="hljs-comment"># Otherwise We can also stop firewall of gateway and then wget the OW FW as the firewall restart automatically after reboot so no concern of security</span>
+
+/etc/init.d/firewall stop  
+</div></code></pre>
+<h3 id="3go-to-mntfsuser-1-directory">3.Go to /opt/ directory</h3>
+<pre class="hljs"><code><div><span class="hljs-built_in">cd</span> /opt/
+</div></code></pre>
+<h3 id="4download-the-package-to-mntfsuser-1-directory-via-wget">4.Download the Package to /opt/ Directory via wget</h3>
+<h3 id="note--please-use-the-provided-link-to-download-the-ow-fw">Note : <em>Please use the provided link to download the OW FW </em></h3>
+<pre class="hljs"><code><div>wget {{linked}}
+</div></code></pre>
+<h2 id="or">OR</h2>
+<h3 id="note-else-we-can-also-download-the-in-local-machine-and-then-copy-package-from-local-system-to-the-gateway-in-mntfsuser-1-location">Note: <em>We can also download the FW in local machine and then copy FW from local system to the gateway in /opt/ location</em></h3>
+<h3 id="5got-to-root-directory">5.Got to root directory</h3>
+<pre class="hljs"><code><div><span class="hljs-built_in">cd</span> /
+</div></code></pre>
+<h3 id="note--the-file-has-to-be-extracted-from-the-root-directory-so-make-sure-that-the-cd--command-was-correctly-executed">Note : <em> The file has to be extracted from the root directory, so make sure that the cd / command was correctly executed.</em></h3>
+<h3 id="6extact-the-frimware">6.Extact the Frimware</h3>
+<pre class="hljs"><code><div>tar xzvf /opt/{{fw_file}}
+</div></code></pre>
+<h3 id="7reboot">7.Reboot</h3>
+<pre class="hljs"><code><div>reboot
+</div></code></pre>
+<h3 id="here-are-the-most-common-issues-when-trying-to-provision-a-gateway">Here are the most common issues when trying to provision a gateway:</h3>
+<hr>
+<h3 id="1-all-require-ports-might-not-be-opened">1)    All require ports might not be opened</h3>
+<h3 id="this-happens-that-lan-connections-rare-with-cellular-are-behind-firewalls-that-block-some-ports-and-then-prevent-connection-between-the-gateway-and-the-network-server-the-following-ports-have-to-be-open-to-ensure-full-functionality">This happens that LAN connections (rare with cellular) are behind firewalls that block some ports and then prevent connection between the gateway and the network server. The following ports have to be open to ensure full functionality:</h3>
+<h4 id="udp-1780-1782-1784-1788"><em>UDP: 1780, 1782, 1784, 1788</em></h4>
+<h4 id="tcp-1790-50010-50011"><em>TCP: 1790, 50010, 50011</em></h4>
+<h3 id="2-firmware-was-not-installed-in-the-correct-directory">2)    Firmware was not installed in the correct directory</h3>
+<h3 id="the-procedure-of-provisioning-is-most-often-based-in-three-steps-download-firmware-package-extract-tar-file-reboot-the-gateway-the-extract-step-has-to-be-run-from-the-root-directory-otherwise-the-whole-provisioning-will-fail-so-the-cd--is-really-important">The procedure of provisioning is most often based in three steps (download firmware package, extract tar file, reboot the gateway). The extract step has to be run from the root directory, otherwise the whole provisioning will fail, so the cd / is really important.</h3>
+<pre class="hljs"><code><div><span class="hljs-built_in">cd</span> /
+tar xvzf /xxx/yyy/gwd_zzz.tgz
+</div></code></pre>
+<h3 id="3-gateway-certificates-are-not-valid">3)    Gateway certificates are not valid</h3>
+<h3 id="this-might-happen-that-the-gateway-firmware-package-contains-wrong-certificates-and-then-the-gateway-or-the-server-would-refuse-the-connection-gateway-and-gateway-file-server-certificates-shall-be-double-checked">This might happen that the gateway firmware package contains wrong certificates and then the gateway or the server would refuse the connection. Gateway and gateway-file-server certificates shall be double checked.</h3>
+
+</body>
+</html>

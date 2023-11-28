@@ -1,0 +1,279 @@
+{
+  "gtw_tp": "Kerlink_iBTS",
+  "link_dw": "da.c",
+  "TenantName": "ad",
+  "FW_ver": "a",
+  "Instance_Name": "eu ",
+  "PDF_name": "Kerlink_iBTS_eu _ad_a_provsioining_document.pdf",
+  "Date_Time": "2023-07-03T08:18:52.365Z"
+},
+{
+  "gtw_tp": "Kerlink_iBTS",
+  "link_dw": "http://nst.eu.saas.orbiwise.com:50011/nodemu",
+  "TenantName": "admin",
+  "FW_ver": "v6.2.0",
+  "Instance_Name": "Eu Saas",
+  "PDF_name": "Kerlink_iBTS_Eu Saas_admin_v6.2.0_provsioining_document.pdf",
+  "Date_Time": "2023-07-03T08:20:15.005Z"
+},
+{
+  "gtw_tp": "Kerlink_iBTS",
+  "link_dw": "http:/rockylinux-test.com:50011/nodem",
+  "TenantName": "v6.2.0",
+  "FW_ver": "v6.2.0",
+  "Instance_Name": "Eu saas",
+  "PDF_name": "Kerlink_iBTS_Eu saas_v6.2.0_v6.2.0_provsioining_document.pdf",
+  "Date_Time": "2023-07-03T08:23:58.678Z"
+},
+{
+  "gtw_tp": "Multitech",
+  "link_dw": "http://nst.us.saas.orbiwise.com:50011/gwd_multitech_US-SAAS_full_install_v6.2.0-37_D45296D01896EC67.tgz",
+  "TenantName": "danalto_admin",
+  "FW_ver": "v6.2.0-37",
+  "Instance_Name": "US Saas",
+  "PDF_name": "Multitech_US Saas_danalto_admin_v6.2.0-37_provsioining_document.pdf",
+  "Date_Time": "2023-07-04T05:57:04.712Z"
+},
+{
+  "gtw_tp": "Multitech",
+  "link_dw": "http://nst.us.saas.orbiwise.com:50011/gwd_multitech_US-SAAS_full_install_v6.2.0-37_691D5FBB5326AFC8.tgz",
+  "TenantName": "danalto_admin",
+  "FW_ver": "v6.2.0-38",
+  "Instance_Name": "US Saas",
+  "PDF_name": "Multitech_US Saas_danalto_admin_v6.2.0-38_provsioining_document.pdf",
+  "Date_Time": "2023-07-12T10:22:10.372Z"
+},
+{
+  "gtw_tp": "Multitech",
+  "link_dw": "http://nst.us.saas.orbiwise.com:50011/gwd_multitech_US-SAAS_full_install_v6.2.0-38_4EAE542930C2CFD8.tgz",
+  "TenantName": "danalto_admin",
+  "FW_ver": "v6.2.0-38",
+  "Instance_Name": "US Saas",
+  "PDF_name": "Multitech_US Saas_danalto_admin_v6.2.0-38_provsioining_document.pdf",
+  "Date_Time": "2023-07-12T10:53:48.635Z"
+},
+{
+  "gtw_tp": "Kerlink_Istation",
+  "link_dw": "http://lora.eleven-x.com:50011/gwd_kerlinkistation_Eleven-X_full_install_v6.2.0-39_10777E77EB0EA854.tgz",
+  "TenantName": "admin",
+  "FW_ver": "v6.2.0-39",
+  "Instance_Name": "Eleven-x",
+  "PDF_name": "Kerlink_Istation_Eleven-x_admin_v6.2.0-39_provsioining_document.pdf",
+  "Date_Time": "2023-07-13T10:39:03.580Z"
+},
+{
+  "gtw_tp": "Tektelic_Micro",
+  "link_dw": "http://nwk.ventia.orbiwise.com:50011/gwd_tektelic_Ventia_full_install_v6.2.0-40_CB89C0901192FEF8.tgz",
+  "TenantName": "admin",
+  "FW_ver": "v6.2.0-40",
+  "Instance_Name": "Ventia",
+  "PDF_name": "Tektelic_Micro_Ventia_admin_v6.2.0-40_provsioining_document.pdf",
+  "Date_Time": "2023-07-18T09:44:06.712Z"
+},
+{
+  "gtw_tp": "Kerlink_Istation",
+  "link_dw": "http://nst.eu.saas.orbiwise.com:50011/gwd_kerlinkistation_EU-SaaS_VDL_full_install_v6.2.0-39_0891612064822545.tgz",
+  "TenantName": "vdl",
+  "FW_ver": "v6.2.0-39",
+  "Instance_Name": "EU Saas",
+  "PDF_name": "Kerlink_Istation_EU Saas_vdl_v6.2.0-39_provsioining_document.pdf",
+  "Date_Time": "2023-07-24T10:26:48.399Z"
+},
+{
+  "gtw_tp": "Kerlink_femtocell",
+  "link_dw": "http://ind.ce.orbiwise.com:50011/gwd_kerlinkfemto_Hubone_update_v6.2.0-31.tgz",
+  "TenantName": "admin",
+  "FW_ver": "v6.2.0-31",
+  "Instance_Name": "Hubone",
+  "PDF_name": "Kerlink_femtocell_Hubone_admin_v6.2.0-31_provsioining_document.pdf",
+  "Date_Time": "2023-08-01T15:26:54.981Z"
+},
+{
+  "gtw_tp": "Tektelic_Mega",
+  "link_dw": "http://172.16.8.130:50011/gwd_tektelicmega_Alsatis_full_instal_update_v7.0.0.tgz",
+  "TenantName": "tenant_admin_alsatis-rx",
+  "FW_ver": "v7.0.0",
+  "Instance_Name": "Alsatis",
+  "PDF_name": "Tektelic_Mega_Alsatis_tenant_admin_alsatis-rx_v7.0.0_provsioining_document.pdf",
+  "Date_Time": "2023-08-03T10:12:05.641Z"
+},
+{
+  "gtw_tp": "Multitech",
+  "link_dw": "http://nst.us.saas.orbiwise.com:50011/gwd_multitech_US-SAAS_full_install_v6.2.0-42_5785871092C1215D.tgz",
+  "TenantName": "Danalto",
+  "FW_ver": "v6.2.0-42",
+  "Instance_Name": "US Saas",
+  "PDF_name": "Multitech_US Saas_Danalto_v6.2.0-42_provsioining_document.pdf",
+  "Date_Time": "2023-08-04T11:47:33.683Z"
+},
+{
+  "gtw_tp": "Kerlink_iBTS",
+  "link_dw": " jb ",
+  "TenantName": "ghc",
+  "FW_ver": "jnb",
+  "Instance_Name": "hjv",
+  "PDF_name": "Kerlink_iBTS_hjv_ghc_jnb_provsioining_document.pdf",
+  "Date_Time": "2023-09-06T09:51:02.600Z"
+},
+{
+  "gtw_tp": "Multitech",
+  "link_dw": "http://172.29.8.20:50011/gwd_multitech_Itelazpi_full_install_v7.0.0_E1CFEE91644CEBB3.tgz",
+  "TenantName": "admin",
+  "FW_ver": "v7.0.0",
+  "Instance_Name": "Itelazpi",
+  "PDF_name": "Multitech_Itelazpi_admin_v7.0.0_provsioining_document.pdf",
+  "Date_Time": "2023-09-07T12:12:43.106Z"
+},
+{
+  "gtw_tp": "Kerlink_femtocell",
+  "link_dw": "http://nst.us.saas.orbiwise.com:50011/gwd_kerlinkfemto_US-SAAS_full_install_v6.2.0-31_27B1CA770F43FF5D.tgz",
+  "TenantName": "Calchip",
+  "FW_ver": "v6.2.0-31",
+  "Instance_Name": "US Saas",
+  "PDF_name": "Kerlink_femtocell_US Saas_Calchip_v6.2.0-31_provsioining_document.pdf",
+  "Date_Time": "2023-09-22T12:13:17.361Z"
+},
+{
+  "gtw_tp": "Ursalink",
+  "link_dw": "http://172.29.8.2:50011/gwd_ursalink_ITELAZPI_full_install_v6.2.0_F2CB38B71F99D3CC.tgz",
+  "TenantName": "admin",
+  "FW_ver": "v6.2.0",
+  "Instance_Name": "Itelazpi",
+  "PDF_name": "Ursalink_Itelazpi_admin_v6.2.0_provsioining_document.pdf",
+  "Date_Time": "2023-09-27T11:04:42.994Z"
+},
+{
+  "gtw_tp": "RAK_7249",
+  "link_dw": "http://10.0.10.8:50011/gwd_rak7289_AU_SAAS_full_install_v6.2.0-45_F0E6791F3DF7D8C0.tgz",
+  "TenantName": "Artimar",
+  "FW_ver": "v6.2.0-45",
+  "Instance_Name": "US Saas",
+  "PDF_name": "RAK_7249_US Saas_Artimar_v6.2.0-45_provsioining_document.pdf",
+  "Date_Time": "2023-09-29T08:49:43.185Z"
+},
+{
+  "gtw_tp": "RAK_7249",
+  "link_dw": "http://34.195.120.32:50011/gwd_rak7289_AU_SAAS_full_install_v6.2.0-45_F0E6791F3DF7D8C0.tgz",
+  "TenantName": "artimar",
+  "FW_ver": "v6.2.0-45",
+  "Instance_Name": "AU Saas",
+  "PDF_name": "RAK_7249_AU Saas_artimar_v6.2.0-45_provsioining_document.pdf",
+  "Date_Time": "2023-10-02T10:46:41.909Z"
+},
+{
+  "gtw_tp": "Multitech",
+  "link_dw": "http://34.195.120.32:50011/gwd_multitechcap_AU_SAAS_full_install_v6.2.0-11_05B0C0571BB2645A.tgz",
+  "TenantName": "Pulse Industrial",
+  "FW_ver": "v6.2.0-11",
+  "Instance_Name": "AU Saas",
+  "PDF_name": "Multitech_AU Saas_Pulse Industrial_v6.2.0-11_provsioining_document.pdf",
+  "Date_Time": "2023-10-02T12:22:34.862Z"
+},
+{
+  "gtw_tp": "Kerlink_iBTS",
+  "link_dw": "http://nst.eu.saas.orbiwise.com:50011/gwd_kerlinkv2_EU-SAAS_full_install_v6.2.0_1671C3A3E517DBDA.tgz",
+  "TenantName": "heig",
+  "FW_ver": "v6.2.0",
+  "Instance_Name": "EU Saas",
+  "PDF_name": "Kerlink_iBTS_EU Saas_heig_v6.2.0_provsioining_document.pdf",
+  "Date_Time": "2023-10-09T11:41:32.043Z"
+},
+{
+  "gtw_tp": "Kerlink_femtocell",
+  "link_dw": "http://nst.eu.saas.orbiwise.com:50011/gwd_kerlinkfemto_EU-SAAS_full_install_v6.2.0-31_5ED2BC9DAA0F938C.tgz",
+  "TenantName": "heig",
+  "FW_ver": "v6.2.0-31",
+  "Instance_Name": "EU Saas",
+  "PDF_name": "Kerlink_femtocell_EU Saas_heig_v6.2.0-31_provsioining_document.pdf",
+  "Date_Time": "2023-10-09T11:42:03.249Z"
+},
+{
+  "gtw_tp": "Tektelic_Micro",
+  "link_dw": "http://nst.eu.saas.orbiwise.com:50011/gwd_tektelic_EU-SAAS_full_install_v6.2.0-40_60191411C943B531.tgz",
+  "TenantName": "heig",
+  "FW_ver": "v6.2.0-40",
+  "Instance_Name": "EU Saas",
+  "PDF_name": "Tektelic_Micro_EU Saas_heig_v6.2.0-40_provsioining_document.pdf",
+  "Date_Time": "2023-10-09T11:42:36.429Z"
+},
+{
+  "gtw_tp": "Ursalink",
+  "link_dw": "http://nst.eu.saas.orbiwise.com:50011/gwd_ursalink_EU-SAAS_full_install_v6.2.0_A412247927E378A7.tgz",
+  "TenantName": "heig",
+  "FW_ver": "v6.2.0",
+  "Instance_Name": "EU Saas",
+  "PDF_name": "Ursalink_EU Saas_heig_v6.2.0_provsioining_document.pdf",
+  "Date_Time": "2023-10-09T11:43:02.367Z"
+},
+{
+  "gtw_tp": "Ursalink",
+  "link_dw": "http://nwk.yeap.orbiwise.com:50011/gwd_ursalink_Yeap_full_install_v6.2.0_13D3FC9994F71966.tgz",
+  "TenantName": "admin",
+  "FW_ver": "v6.2.0",
+  "Instance_Name": "Yeap",
+  "PDF_name": "Ursalink_Yeap_admin_v6.2.0_provsioining_document.pdf",
+  "Date_Time": "2023-10-12T07:43:10.172Z"
+},
+{
+  "gtw_tp": "Kerlink_Istation",
+  "link_dw": "http://lora.eleven-x.com:50011/gwd_kerlinkistation_Eleven-X_full_install_v6.2.0-46_7A32F984622A36BF.tgz",
+  "TenantName": "admin",
+  "FW_ver": "v6.2.0-46",
+  "Instance_Name": "Eleven -X",
+  "PDF_name": "Kerlink_Istation_Eleven -X_admin_v6.2.0-46_provsioining_document.pdf",
+  "Date_Time": "2023-10-16T15:52:20.642Z"
+},
+{
+  "gtw_tp": "Tektelic_Micro",
+  "link_dw": "http://ventia-test-r7.orbiwise.com:50011/gwd_tektelic_Ventia-TB_full_install_v7.0.0_E4721C02BF901D38.tgz",
+  "TenantName": "admin",
+  "FW_ver": "v7.0.0",
+  "Instance_Name": "Ventia test",
+  "PDF_name": "Tektelic_Micro_Ventia test_admin_v7.0.0_provsioining_document.pdf",
+  "Date_Time": "2023-10-17T11:25:58.639Z"
+},
+{
+  "gtw_tp": "Ursalink",
+  "link_dw": "http://nwk.yeap.orbiwise.com:50011/gwd_ursalink_Yeap_full_install_v6.1.0-66_86051FD96A8B8DFA.tgz",
+  "TenantName": "admin",
+  "FW_ver": "v6.1.0-66",
+  "Instance_Name": "Yeap",
+  "PDF_name": "Ursalink_Yeap_admin_v6.1.0-66_provsioining_document.pdf",
+  "Date_Time": "2023-11-02T09:38:27.304Z"
+},
+{
+  "gtw_tp": "Multitech",
+  "link_dw": "http://nst.eu.saas.orbiwise.com:50011/gwd_multitech_EU-SaaS_VDL_full_install_v6.2.0-42_D88184B1522A8FFD.tgz",
+  "TenantName": "vdl",
+  "FW_ver": "v6.2.0-42",
+  "Instance_Name": "Eu saas",
+  "PDF_name": "Multitech_Eu saas_vdl_v6.2.0-42_provsioining_document.pdf",
+  "Date_Time": "2023-11-03T15:37:10.905Z"
+},
+{
+  "gtw_tp": "Multitech",
+  "link_dw": "http://nst.eu.saas.orbiwise.com:50011/gwd_multitech_cap_EU-SaaS_VDL_full_install_v6.2.0-11_282148D9015F65F2.tgz",
+  "TenantName": "vdl",
+  "FW_ver": "v6.2.0-11",
+  "Instance_Name": "EU Saas",
+  "PDF_name": "Multitech_EU Saas_vdl_v6.2.0-11_provsioining_document.pdf",
+  "Date_Time": "2023-11-06T16:03:30.505Z"
+},
+{
+  "gtw_tp": "Kerlink_Istation",
+  "link_dw": "http://nst.ind.saas.orbiwise.com:50011/gwd_kerlinkistation_IN865SaaS_full_install_v6.2.0-47_AFDD1D3B89A3E125.tgz",
+  "TenantName": "syook_admin",
+  "FW_ver": "v6.2.0-47",
+  "Instance_Name": "ind saas",
+  "PDF_name": "Kerlink_Istation_ind saas_syook_admin_v6.2.0-47_provsioining_document.pdf",
+  "Date_Time": "2023-11-20T09:47:41.052Z"
+},
+{
+  "gtw_tp": "Ursalink",
+  "link_dw": "http://nst.au.saas.orbiwise.com:50011/gwd_ursalink_AMERICAS_SAAS_full_install_v6.1.0-66_C52A774B4CA038F2.tgz",
+  "TenantName": "Yeap",
+  "FW_ver": "v6.1.0-66",
+  "Instance_Name": "AU Saas",
+  "PDF_name": "Ursalink_AU Saas_Yeap_v6.1.0-66_provsioining_document.pdf",
+  "Date_Time": "2023-11-28T07:48:22.132Z"
+},

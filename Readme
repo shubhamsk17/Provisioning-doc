@@ -1,0 +1,18 @@
+1. npm install
+
+2. Run code 
+
+> node test.js
+
+
+3. Input example
+
+? Select Gateway Type : Kerlink_Istation
+? Please Enter the Instance Name : US
+? Please Enter Tenant Name : Admin
+? Please Enter the OW agent version : v6.1.0-28
+? Please Enter the Downlink Link : 
+http://nst.eu.saas.orbiwise.com:50011/gwd_kerlinkistation_ISAT_EU-SaaS_full_install_v6.1.0-28_5AA5AF31347BE0FC.tgz
+
+
+4. Keep record for delievery in Record directory
